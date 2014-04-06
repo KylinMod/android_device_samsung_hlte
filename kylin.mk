@@ -1,8 +1,5 @@
 $(call inherit-product, device/samsung/hlte/full_hlte.mk)
 
-# Inherit some common KM stuff.
-$(call inherit-product, vendor/kylin/config/gsm.mk)
-
 # Enhanced NFC
 $(call inherit-product, vendor/kylin/config/nfc_enhanced.mk)
 
